@@ -42,7 +42,7 @@ return [
 'employee_photos' => [
 'driver' => 'local',
 'root' => storage_path('app/employee_photos'),
-'url' => env('APP_URL').'/storage/employee_photos',
+'url' => env('APP_URL').'/storage/app/employee_photos',
 'visibility' => 'public',
 ],
 ],
